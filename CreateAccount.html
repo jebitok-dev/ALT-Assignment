@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Create Account</title>
 </head>
+
 <body>
-  <h1>Create Account</h1>
+  <h1>ALT School</h1>
   <div>
     <section style="background-color: wheat;">
       <h2>Learn highly sought after skills without hassle</h2>
@@ -18,15 +20,15 @@
       <form action="#" method="post">
         <table>
           <tr>
-            <td><Label for="firstName">First Name</Label></td>
+            <td><Label for="firstName">First Name <sup>*</sup></Label></td>
             <td><input type="text" id="firstName" placeholder="Enter First Name" required></td>
           </tr>
           <tr>
-            <td><Label for="lastName">Last Name</Label></td>
+            <td><Label for="lastName">Last Name <sup>*</sup></Label></td>
             <td><input type="text" id="lastName" placeholder="Enter Last Name" required></td>
           </tr>
           <tr>
-            <td><label for="gender">Gender:</label></td>
+            <td><label for="gender">Gender <sup>*</sup></label></td>
             <td>
               <select name="gender" id="gender" required>
                 <option value="Select">Select Gender</option>
@@ -37,11 +39,11 @@
             </td>
           </tr>
           <tr>
-            <td><label for="dateOfBirth">Date of Birth</label></td>
+            <td><label for="dateOfBirth">Date of Birth <sup>*</sup></label></td>
             <td><input type="date" id="dateOfBirth" name="dateOfBirth" required></td>
           </tr>
           <tr>
-            <td><label for="country">Country:</label></td>
+            <td><label for="country">Country <sup>*</sup></label></td>
             <td>
               <select name="country" id="country" required>
                 <option value="Select">Select Country</option>
@@ -52,7 +54,7 @@
               </select>
           </tr>
           <tr>
-            <td><label for="country">Country:</label></td>
+            <td><label for="City">City <sup>*</sup></label></td>
             <td>
               <select name="city" id="city" required>
                 <option value="Select">Select State/City</option>
@@ -63,7 +65,7 @@
               </select>
           </tr>
           <tr>
-            <td><label for="employmentStatus">Employment Status:</label></td>
+            <td><label for="employmentStatus">Employment Status <sup>*</sup></label></td>
             <td>
               <select name="employmentStatus" id="employmentStatus" required>
                 <option value="Select">Select Employment Status</option>
@@ -74,12 +76,12 @@
             </td>
           </tr>
           <tr>
-            <td><label for="phoneNumber">Phone Number:</label></td>
+            <td><label for="phoneNumber">Phone Number <sup>*</sup></label></td>
             <td><input type="tel" id="phoneNumber" name="phoneNumber" placeholder="012345678" required></td>
           </tr>
           <tr>
             <!-- choose school -->
-            <td><label for="school">School:</label></td>
+            <td><label for="school">School <sup>*</sup></label></td>
             <td>
               <select name="school" id="school" required>
                 <option value="Select">Select School</option>
@@ -89,7 +91,7 @@
               </select>
           </tr>
           <tr>
-            <td><label for="course">Course:</label></td>
+            <td><label for="course">Course <sup>*</sup></label></td>
             <td>
               <select name="course" id="course" required>
                 <option value="Select">Select Course</option>
@@ -104,10 +106,33 @@
                 <option value="Product Marketing">Product Marketing</option>
               </select>
           </tr>
-          
+          <tr>
+            <td><label for="hearAboutUs">How did you hear about us? <sup>*</sup></label></td>
+            <td>
+              <select name="hearAboutUs" id="hearAboutUs" required>
+                <option value="Select">Select Option</option>
+                <option value="Social Media">Social Media</option>
+                <option value="Friend">Friend</option>
+                <option value="Family">Family</option>
+                <option value="Other">Other</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td><label for="scholarshipCode">Scholarship/Discount Code(optional)</label></td>
+            <td><input type="text" id="scholarshipCode" name="scholarshipCode" placeholder="Enter Code"></td>
+          </tr> <br>
+          <tr>
+            <td><label for="termsOfUse">By clicking continue, I agree to Terms of Use and acknowldege that I have read
+                the Privacy Policy Proceed</label></td>
+            </tr>
+            <tr>
+            <td><input type="submit" value="Proceed"></td>
+          </tr>
         </table>
       </form>
     </section>
   </div>
 </body>
+
 </html>
