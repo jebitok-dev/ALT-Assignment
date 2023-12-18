@@ -15,8 +15,97 @@
     <section>
       <h2>Application Form</h2>
       <p>Fill in your details</p>
-      <form action="#" >
-
+      <form action="#" method="post">
+        <table>
+          <tr>
+            <td><Label for="firstName">First Name</Label></td>
+            <td><input type="text" id="firstName" placeholder="Enter First Name" required></td>
+          </tr>
+          <tr>
+            <td><Label for="lastName">Last Name</Label></td>
+            <td><input type="text" id="lastName" placeholder="Enter Last Name" required></td>
+          </tr>
+          <tr>
+            <td><label for="gender">Gender:</label></td>
+            <td>
+              <select name="gender" id="gender" required>
+                <option value="Select">Select Gender</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td><label for="dateOfBirth">Date of Birth</label></td>
+            <td><input type="date" id="dateOfBirth" name="dateOfBirth" required></td>
+          </tr>
+          <tr>
+            <td><label for="country">Country:</label></td>
+            <td>
+              <select name="country" id="country" required>
+                <option value="Select">Select Country</option>
+                <option value="Nigeria">Nigeria</option>
+                <option value="Benin Republic">Benin Republic</option>
+                <option value="Kenya">Kenya</option>
+                <option value="Ghana">Ghana</option>
+              </select>
+          </tr>
+          <tr>
+            <td><label for="country">Country:</label></td>
+            <td>
+              <select name="city" id="city" required>
+                <option value="Select">Select State/City</option>
+                <option value="Nairobi">Nairobi</option>
+                <option value="Abuja">Abuja</option>
+                <option value="Lagos">Lagos</option>
+                <option value="Accra">Accra</option>
+              </select>
+          </tr>
+          <tr>
+            <td><label for="employmentStatus">Employment Status:</label></td>
+            <td>
+              <select name="employmentStatus" id="employmentStatus" required>
+                <option value="Select">Select Employment Status</option>
+                <option value="employed">Employed</option>
+                <option value="unemployed">Unemployed</option>
+                <option value="self-employed">Self-Employed</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td><label for="phoneNumber">Phone Number:</label></td>
+            <td><input type="tel" id="phoneNumber" name="phoneNumber" placeholder="012345678" required></td>
+          </tr>
+          <tr>
+            <!-- choose school -->
+            <td><label for="school">School:</label></td>
+            <td>
+              <select name="school" id="school" required>
+                <option value="Select">Select School</option>
+                <option value="School of Engineering">School of Engineering</option>
+                <option value="School of Product">School of Product</option>
+                <option value="School of Data">School of Data</option>
+              </select>
+          </tr>
+          <tr>
+            <td><label for="course">Course:</label></td>
+            <td>
+              <select name="course" id="course" required>
+                <option value="Select">Select Course</option>
+                <option value="Cloud Engineering">Cloud Engineering</option>
+                <option value="Frontend Engineering">Frontend Engineering</option>
+                <option value="Backend Engineering">Backend Engineering</option>
+                <option value="Data Science">Data Science</option>
+                <option value="Data Analysis">Data Analysis</option>
+                <option value="Data Engineering">Data Engineering</option>
+                <option value="Product Management">Product Management</option>
+                <option value="Product Design">Product Design</option>
+                <option value="Product Marketing">Product Marketing</option>
+              </select>
+          </tr>
+          
+        </table>
       </form>
     </section>
   </div>
