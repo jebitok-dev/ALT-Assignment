@@ -10,55 +10,56 @@
 </head>
 
 <body class="background">
-  <div class="container">
-    <section class="one">
+  <div class="container row">
+    <section class="col-sm-6">
       <img src="./Logo.png" class="logo" alt="Logo">
       <h1>For Individuals</h1>
-      <p class="text">Start benefiting from the wellness experience. For companies looking on increasing productivity, and improving
+      <p class="text">Start benefiting from the wellness experience. For companies looking on increasing productivity,
+        and improving
         organization wellness.</p>
     </section>
-    <section class="one">
+    <section class="col-sm-6">
       <form action="#" method="post">
         <table class="two1">
-          <div class="two">
-          <tr>
-            <td><label for="firstName">First Name</label></td>
-            <td><input type="text" name="firstName" id="firstName" placeholder="Tolu"></td>
+          <div class="row">
+            <div class="col-sm-6">
+              <tr class="row">
+                <td class="col-sm-6"><label for="firstName">First Name</label></td>
+                <td class="col-sm-6"><input type="text" name="firstName" id="firstName" placeholder="Tolu"></td>
+              </tr>
+            </div>
+            <div class="col-sm-6">
+              <tr class="row">
+                <td class="col-sm-6"><label for="lastName">Last Name</label></td>
+                <td class="col-sm-6"><input type="text" name="lastName" id="lastName"></td>
+              </tr>
+            </div>
+          </div>
+          <tr class="row">
+            <td class="col-sm-6"><label for="gender">Gender</label></td>
+            <td class="col-sm-6">
+              <select name="gender" id="gender">
+                <option value="Select Here">Select Here</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+              </select>
+            </td>
           </tr>
-          <tr>
-            <td><label for="lastName">Last Name</label></td>
-            <td><input type="text" name="lastName" id="lastName"></td>
+          <tr class="row">
+            <td class="col-sm-6"><label for="dateOfBirth">Date of Birth</label></td>
+            <td class="col-sm-6"><input type="date" placeholder="Select Here"></td>
           </tr>
-        </div>
-        <div class="two">
-          <tr>
-          <td><label for="gender">Gender</label></td>
-          <td>
-            <select name="gender" id="gender">
-              <option value="Select Here">Select Here</option>
-              <option value="Male">Male</option>
-              <option value="Female">Female</option>
-            </select>
-          </td>
+          <tr class="row">
+            <td class="col-sm-6"><label for="weight">Weight(KG)</label></td>
+            <td class="col-sm-6"><input type="number" placeholder="Enter Weight"></td>
           </tr>
-          <tr>
-            <td><label for="dateOfBirth">Date of Birth</label></td>
-            <td><input type="date" placeholder="Select Here"></td>
+          <tr class="row">
+            <td class="col-sm-6"><label for="height">Height(CM)</label></td>
+            <td class="col-sm-6"><input type="number" placeholder="Enter Height"></td>
           </tr>
-        </div>
-        <div class="two">
-          <tr>
-            <td><label for="weight">Weight(KG)</label></td>
-            <td><input type="number" placeholder="Enter Weight"></td>
-          </tr>
-          <tr>
-            <td><label for="height">Height(CM)</label></td>
-            <td><input type="number" placeholder="Enter Height"></td>
-          </tr>
-        </div>
-          <tr>
-            <td><label for="activityLevel">Activity Level</label></td>
-            <td>
+          <tr class="row">
+            <td class="col-sm-6"><label for="activityLevel">Activity Level</label></td>
+            <td class="col-sm-6">
               <select name="activityLevel" id="activityLevel">
                 <option value="Select Here">Select Here</option>
                 <option value="Sedentary">Low Activity</option>
@@ -67,13 +68,13 @@
                 <option value="Sedentary">High Activity</option>
               </select>
           </tr>
-          <tr>
-            <td><label for="password">Password</label></td>
-            <td><input type="password" name="password" id="password" placeholder="Enter Password"></td>
+          <tr class="row">
+            <td class="col-sm-6"><label for="password">Password</label></td>
+            <td class="col-sm-6"><input type="password" name="password" id="password" placeholder="Enter Password"></td>
           </tr>
-          <!-- register button -->
           <tr>
             <td><input type="submit" value="Register"></td>
+          </tr>
         </table>
       </form>
       <p>By clicking Register, you agree to our Terms of Use and our Privacy Policy</p>
