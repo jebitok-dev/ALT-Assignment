@@ -18,62 +18,82 @@
         and improving
         organization wellness.</p>
     </section>
-    <section class="col-sm-6">
+    <section class="container">
       <form action="#" method="post">
         <table class="table">
           <tbody>
-            <tr class="row">
-              <td class="col-sm-6"><label for="firstName">First Name</label></td>
-              <td class="col-sm-6"><input type="text" name="firstName" id="firstName" placeholder="Tolu"></td>
-            </tr>
-            <tr class="row">
-              <td class="col-sm-6"><label for="lastName">Last Name</label></td>
-              <td class="col-sm-6"><input type="text" name="lastName" id="lastName"></td>
-            </tr>
-            <tr class="row">
-              <td class="col-sm-6"><label for="gender">Gender</label></td>
-              <td class="col-sm-6">
-                <select name="gender" id="gender">
-                  <option value="Select Here">Select Here</option>
-                  <option value="Male">Male</option>
-                  <option value="Female">Female</option>
-                </select>
+            <tr>
+              <td>
+                <div class="form-group">
+                  <label for="firstName">First Name</label>
+                  <input type="text" class="form-control" name="firstName" id="firstName" placeholder="Tolu">
+                </div>
+              </td>
+              <td>
+                <div class="form-group">
+                  <label for="lastName">Last Name</label>
+                  <input type="text" class="form-control" name="lastName" id="lastName">
+                </div>
               </td>
             </tr>
-            <tr class="row">
-              <td class="col-sm-6"><label for="dateOfBirth">Date of Birth</label></td>
-              <td class="col-sm-6"><input type="date" placeholder="Select Here"></td>
-            </tr>
-            <tr class="row">
-              <td class="col-sm-6"><label for="weight">Weight(KG)</label></td>
-              <td class="col-sm-6"><input type="number" placeholder="Enter Weight"></td>
-            </tr>
-            <tr class="row">
-              <td class="col-sm-6"><label for="height">Height(CM)</label></td>
-              <td class="col-sm-6"><input type="number" placeholder="Enter Height"></td>
-            </tr>
-            <tr class="row">
-              <td class="col-sm-6"><label for="activityLevel">Activity Level</label></td>
-              <td class="col-sm-6">
-                <select name="activityLevel" id="activityLevel">
-                  <option value="Select Here">Select Here</option>
-                  <option value="Sedentary">Low Activity</option>
-                  <option value="Sedentary">Athletic/Training</option>
-                  <option value="Sedentary">Moderate Activity</option>
-                  <option value="Sedentary">High Activity</option>
-                </select>
-            </tr>
-            <tr class="row">
-              <td class="col-sm-6"><label for="password">Password</label></td>
-              <td class="col-sm-6"><input type="password" name="password" id="password" placeholder="Enter Password">
+            <tr>
+              <td>
+                <div class="form-group">
+                  <label for="gender">Gender</label>
+                  <select name="gender" class="form-control" id="gender">
+                    <option value="Select Here">Select Here</option>
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                  </select>
+                </div>
+              </td>
+              <td>
+                <div class="form-group">
+                  <label for="dateOfBirth">Date of Birth</label>
+                  <input type="date" class="form-control" placeholder="Select Here">
+                </div>
               </td>
             </tr>
-          </tbody>
-        </table>
-        <button>Register</button>
-      </form>
-      <p>By clicking Register, you agree to our Terms of Use and our Privacy Policy</p>
-    </section>
+            <tr>
+              <td>
+                <div class="form-group">
+                  <label for="weight">Weight(KG)</label>
+                  <input type="number" class="form-control" placeholder="Enter Weight">
+                </div>
+              </td>
+              <td>
+                <div class="form-group">
+                  <label for="height">Height(CM)</label>
+                  <input type="number" class="form-control" placeholder="Enter Height">
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div class="form-group">
+                  <label for="activityLevel">Activity Level</label>
+                  <select name="activityLevel" class="form-control" id="activityLevel">
+                    <option value="Select Here">Select Here</option>
+                    <option value="Sedentary">Low Activity</option>
+                    <option value="Sedentary">Athletic/Training</option>
+                    <option value="Sedentary">Moderate Activity</option>
+                    <option value="Sedentary">High Activity</option>
+                  </select>
+              </td>
+  </div>
+  <td>
+    <div class="form-group">
+      <label for="password">Password</label>
+      <input type="password" name="password" id="password" placeholder="Enter Password">
+    </div>
+  </td>
+  </tr>
+  </tbody>
+  </table>
+  <button>Register</button>
+  </form>
+  <p>By clicking Register, you agree to our Terms of Use and our Privacy Policy</p>
+  </section>
   </div>
 
 </body>
