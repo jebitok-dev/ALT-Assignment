@@ -10,7 +10,6 @@ html,
 body {
 	width: 100%;
 	overflow-x: hidden;
-	height: auto;
 }
 
 html {
@@ -24,6 +23,7 @@ body {
 	font-size: 13px;
 	margin: 0;
 	font-family: "Crete Round", sans-serif;
+	height: 100vh;
 }
 
 .nav-item .active {
@@ -65,6 +65,30 @@ hr {
 	padding: 20px;
 	border-radius: 10px;
 	color: #fff;
+}
+
+.details ul {
+	list-style: none;
+}
+
+.details li {
+	margin-bottom: 10px;
+}
+
+.details i {
+	margin-right: 10px;
+}
+
+.italic {
+	font-family: 'Dancing Script', cursive;
+	font-weight: 900;
+	font-style: normal;
+}
+
+#blue-hr {
+	width: 80%;
+	border: 1px solid #fff;
+	margin: 0 auto;
 }
 
 .basicInfo {
