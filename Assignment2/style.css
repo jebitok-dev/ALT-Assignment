@@ -1,85 +1,76 @@
-body {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
+body,
+html {
+	margin: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	width: 100%;
+	padding: 0;
+	overflow-x: hidden;
 }
 
 .background {
-  background-color: #F7FDFC;
+	background-color: #f7fdfc;
 }
 
-/* .container {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  padding: 20px;
-  max-width: 1200px;
-  margin: 0 auto;
-} */
-
-/* .two {
-  padding: 20px;
-  margin: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  text-align: center;
-} */
-
-.one {
-  margin: 10px;
-  justify-content: center;
-  text-align: center;
+.btn1 {
+	background-color: aqua;
 }
+
+/* .one {
+	margin: 10px;
+	justify-content: center;
+	text-align: center;
+} */
 
 .logo {
-  max-width: 100%;
-  height: auto;
+	max-width: 100%;
+	height: auto;
 }
 
 .text {
-  text-align: center;
-  list-style: 1.6;
-  font-size: 14px;
+	text-align: center;
+	list-style: 1.6;
+	font-size: 14px;
 }
 
 form {
-  text-align: left;
-  background-color: #fff;
+	text-align: left;
+	background-color: #fff;
 }
 
 table {
-  width: 100%;
+	width: 100%;
 }
 
 tr {
-  display: flex;
-  /* justify-content: space-between; */
-  margin-bottom: 10px;
+	display: flex;
+	/* justify-content: space-between; */
+	margin-bottom: 10px;
 }
 
 td {
-  padding: 10%;
+	padding: 10%;
 }
 
 p {
-  margin-top: 20px;
+	margin-top: 20px;
 }
 
 @media screen and (min-width: 768px) {
-  .one {
-    flex: 1;
-    max-width: 45%;
-  }
+	.one {
+		flex: 1;
+		max-width: 45%;
+	}
 
-  form {
-    max-width: 600px;
-    margin: 0 auto;
-  }
+	form {
+		max-width: 600px;
+		margin: 0 auto;
+	}
 
-  tr {
-    margin-bottom: 0;
-  }
+	tr {
+		margin-bottom: 0;
+	}
 
-  form-group {
-    margin-bottom: 20px;
-  }
+	form-group {
+		margin-bottom: 20px;
+	}
 }
