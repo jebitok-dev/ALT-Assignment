@@ -27,6 +27,7 @@ form {
 	text-align: left;
 	background-color: #fff;
   padding: auto;
+  border: 1px solid #fff;
 }
 
 .main *:not(form, section) {
@@ -67,16 +68,11 @@ button {
 	width: 100%;
 }
 
-/* select {
-	appearance: auto;
-	-webkit-appearance: auto;
-	-moz-appearance: auto;
-	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 5'%3E%3Cpath fill='%23000' d='M2 4.22L.594 2.814a.5.5 0 01.707-.707L2 3.293 3.293 1.807a.5.5 0 11.707.707L2 4.22z'/%3E%3C/svg%3E");
-	background-position: right 0.3rem center;
-	background-repeat: no-repeat;
-	padding-right: 1rem;
-	color: #000;
-} */
+.icon {
+  font-family: 'Font Awesome 5 Free';
+  content: '\f0d7';
+}
+
 
 select::placeholder {
 	color: #888;
@@ -84,8 +80,9 @@ select::placeholder {
 }
 
 input:focus,
-select:focus {
+select:focus, #active {
 	outline: 1px solid #f7fdfc;
+  color: #000;
 }
 
 .form-control:focus {

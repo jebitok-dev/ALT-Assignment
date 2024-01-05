@@ -14,7 +14,7 @@
 <body class="background">
   <div class="container">
     <section class="flex row main">
-      <section class="col-lg-4 col-md-4 col-sm mt-5 align-items-center text-align exclude-padding">
+      <section class="col-lg-4 col-md-4 col-sm mt-5 align-items-center text-align">
         <img src="./Logo.png" class="logo" alt="Logo">
         <h1>For Individuals</h1>
         <p class="text">Start benefiting from the wellness experience. For companies looking on increasing
@@ -22,12 +22,12 @@
           and improving
           organization wellness.</p>
       </section>
-      <form action="#" method="post" class="col-lg-8 col-md-8 col-sm mt-4 p-2 exclude-padding" id="form">
-        <table class="table">
+      <form action="#" method="post" class="col-lg-8 col-md-8 col-sm mt-4 p-2" id="form">
+        <table class="table text-align">
           <tbody>
             <tr class="row">
               <td class="col-sm-6">
-                <div class="form-group active">
+                <div class="form-group" id="active">
                   <label for="firstName">First Name</label>
                   <input type="text" class="form-control" name="firstName" id="firstName" placeholder="Tolu">
                 </div>
@@ -48,7 +48,7 @@
                     <option value="Male">Male</option>
                     <option value="Female">Female</option>
                   </select>
-                  <i class="fas fa-caret-down"></i>
+                  <!-- <div class="icon"></div> -->
                 </div>
               </td>
               <td class="col-sm-6">
@@ -83,7 +83,7 @@
                     <option value="Sedentary">Moderate Activity</option>
                     <option value="Sedentary">High Activity</option>
                   </select>
-                  <i class="fas fa-caret-down"></i>
+                  <!-- <div class="icon"></div> -->
                 </div>
               </td>
             </tr>
